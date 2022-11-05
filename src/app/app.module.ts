@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { AppBarComponent } from './app-bar/app-bar.component';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { AppBarComponent } from './app-bar/app-bar.component';
     AppBarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
