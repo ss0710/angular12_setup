@@ -1,2 +1,6 @@
 <p>login works!</p>
 <button (click)="clickHandler('Sudheer')">Click here to get Alert</button>
+<br/>
+<br/>
+<input type="text" #name (keyup)="getName(name.value)" placeholder="Enter Name"/>
+<h3>{{userName}}</h3>

@@ -9,11 +9,17 @@ export class LoginComponent implements OnInit {
 
   constructor() { }
 
+  userName='';
+
   ngOnInit(): void {
   }
 
   clickHandler(name:string){
     alert(name);
+  }
+
+  getName(name:string){
+    this.userName=name;
   }
 
 }
