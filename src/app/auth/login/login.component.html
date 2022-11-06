@@ -1,6 +1,26 @@
-<p>login works!</p>
+<p class="heading">login works!</p>
 <button (click)="clickHandler('Sudheer')">Click here to get Alert</button>
+
 <br/>
 <br/>
+
 <input type="text" #name (keyup)="getName(name.value)" placeholder="Enter Name"/>
 <h3>{{userName}}</h3>
+
+<br />
+<br />
+
+<button (click)="incrementCount()" > ++ </button><button (click)="decrementCount()" > -- </button>
+<h3>{{count}}</h3>
+
+<br />
+
+<ng-template [ngIf]="color=='RED'">
+    RED
+</ng-template>
+<ng-template [ngIf]="color=='BLUE'">
+    BLUE
+</ng-template>
+<ng-template [ngIf]="color=='GREEN'">
+    GREEN
+</ng-template>

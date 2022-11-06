@@ -10,6 +10,8 @@ export class LoginComponent implements OnInit {
   constructor() { }
 
   userName='';
+  count = 0;
+  color='RED';
 
   ngOnInit(): void {
   }
@@ -20,6 +22,14 @@ export class LoginComponent implements OnInit {
 
   getName(name:string){
     this.userName=name;
+  }
+
+  incrementCount(){
+    this.count++;
+  }
+
+  decrementCount(){
+    this.count--;
   }
 
 }
