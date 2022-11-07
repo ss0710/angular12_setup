@@ -24,3 +24,13 @@
 <ng-template [ngIf]="color=='GREEN'">
     GREEN
 </ng-template>
+
+<div [ngSwitch]="color1">
+    <div *ngSwitchCase="'RED'">RED</div>
+    <div *ngSwitchCase="'GREEN'">Green</div>
+</div>
+
+<br />
+
+<h3 *ngFor="let item of users">Name is :- {{item}}</h3>
+<h3 *ngFor="let item of usersDetail">Name is :- {{item.email}}</h3>

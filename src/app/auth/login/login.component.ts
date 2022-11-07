@@ -12,6 +12,25 @@ export class LoginComponent implements OnInit {
   userName='';
   count = 0;
   color='RED';
+  color1='GREEN';
+  users=['Sudheer', 'Tiwari', 'CM c'];
+  usersDetail=[
+    {
+      name:'anil',
+      email: 'xyz',
+      phoneNumber: '7565905127'
+    },
+    {
+      name:'John',
+      email: 'xyz',
+      phoneNumber: '7565905127'
+    },
+    {
+      name:'Tacos',
+      email: 'xyz',
+      phoneNumber: '7565905127'
+    }
+  ];
 
   ngOnInit(): void {
   }
