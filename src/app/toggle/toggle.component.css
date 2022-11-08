@@ -1,0 +1,30 @@
+.toggle {
+    padding: 1%;
+    text-align: center;
+}
+
+.toggle-div {
+    padding: 1%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.toggle-box {
+    width: 300px;
+    height: 400px;
+}
+
+button {
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
